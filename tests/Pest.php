@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ pest()->extend(Tests\TestCase::class)
 |
 */
 
-expect()->extend('toBeOne', fn() => $this->toBe(1));
+expect()->extend('toBeOne', fn () => $this->toBe(1));
 
 /*
 |--------------------------------------------------------------------------
